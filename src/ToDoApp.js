@@ -77,13 +77,13 @@ export const ToDoApp = () => {
 	};
 
 	return (
-		<div className="container mt-5">
+		<div className="container mt-4">
 			<div className="row">
 				<div className="col-7 text-right">
 					<h1 className="app-title">
 						{"   "}
 						<i className="fa fa-tasks fa header"></i> TASK{" "}
-						<span className="badge bg-primary m-t mb-3">APP</span>
+						<span className="badge bg-primary m-t mb-2">APP</span>
 					</h1>
 				</div>
 				<div className="col add-task ml-3 animate__animated animate__bounceInDown">
