@@ -77,7 +77,7 @@ export const ToDoApp = () => {
 	};
 
 	return (
-		<div className="container mt-4">
+		<div className="container mt-5">
 			<div className="row">
 				<div className="col-7 text-right">
 					<h1 className="app-title">
