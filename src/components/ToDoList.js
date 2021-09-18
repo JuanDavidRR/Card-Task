@@ -25,7 +25,7 @@ export const ToDoList = ({
 					<hr />
 				</div>
 
-				<div className="row task-container row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 g-4 text-center">
+				<div className="row task-container row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 g-4 text-center">
 					{state
 						.filter(function (toDo) {
 							return toDo.done === false;
